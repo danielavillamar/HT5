@@ -2,6 +2,7 @@
 # HT5 DATOS 
 # 4 DE MARZO DEL 2020
 
+# LAS VARIABLES ESTAN MAS ABAJO PARA QUE LAS PUEDAN EDITAR!!!
 
 import simpy
 import random
@@ -49,7 +50,7 @@ def OperatingSystem(env,simulationTime,processName,simulationMemory,simulationIn
         TOTALTIME = TOTALTIME + ProcessTime
         TIMES.append(ProcessTime)
 
-# Constantess
+# Variables a modificar
 CAPACITY = 1 #Capacidad de CPU
 INSTRUCTIONS = 3  # Instruccciones que puede ejecutar el CPU por unidad de tiempo
 MEMORY = 100  # Memoria RAM
